@@ -1,1 +1,1 @@
-# minipy
+# pydaemon

@@ -1,0 +1,10 @@
+.DS_Store
+*.pyc
+*.swp
+*.swo
+*.log
+
+.idea
+.vscode
+
+Pipfile*
