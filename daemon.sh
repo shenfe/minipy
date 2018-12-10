@@ -4,7 +4,7 @@
 
 while true
 do
-    count=`ps -ef | grep "daemonclass.py" | grep -v "grep"`
+    count=`ps -ef | grep "daemon.py" | grep -v "grep"`
     if [ "$?" != "0" ]; then
         ./daemon.py start
     fi

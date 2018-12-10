@@ -8,7 +8,10 @@ import sys
 import socket
 
 
-def ApplicationInstance(port=60123):
+PORT = 60123
+
+
+def ApplicationInstance(port=PORT):
     try:
         global s
         s = socket.socket()
